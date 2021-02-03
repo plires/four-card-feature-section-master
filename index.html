@@ -8,38 +8,86 @@
   
   <title>Frontend Mentor | Four card feature section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
 </head>
 <body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+  <!-- Titles -->
+  <section class="titles container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Reliable, efficient delivery <br>
+          <span>Powered by Technology</span>
+        </h1>
+        <p>
+          Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Titles end -->
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+  <!-- Cards -->
+  <section class="cards container">
+    <div class="row">
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+      <div class="col-md-4">
+        <div class="box">
+          <div class="line line_cyan"></div>
+          <div class="header">
+            <h3>Supervisor</h3>
+            <p>Monitors activity to identify project roadblocks</p>
+          </div>
+          <div class="footer">
+            <img class="img-fluid" src="images/icon-supervisor.svg" alt="supervisor">
+          </div>
+        </div>
+      </div>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+      <div class="col-md-4">
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+        <div class="box">
+          <div class="line"></div>
+          <div class="header">
+            <h3>Team Builder</h3>
+            <p>Scans our talent network to create the optimal team for your project</p>
+          </div>
+          <div class="footer">
+            <img class="img-fluid" src="images/icon-team-builder.svg" alt="team-builder">
+          </div>
+        </div>
 
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+        <div class="box">
+          <div class="line line_orange"></div>
+          <div class="header">
+            <h3>Karma</h3>
+            <p>Regularly evaluates our talent to ensure quality</p>
+          </div>
+          <div class="footer">
+            <img class="img-fluid" src="images/icon-karma.svg" alt="karma">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-md-4">
+        <div class="box">
+          <div class="line line_blue"></div>
+          <div class="header">
+            <h3>Calculator</h3>
+            <p>Uses data from past projects to provide better delivery estimates</p>
+          </div>
+          <div class="footer">
+            <img class="img-fluid" src="images/icon-calculator.svg" alt="calculator">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Cards end -->
+
 </body>
 </html>
